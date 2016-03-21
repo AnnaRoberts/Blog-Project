@@ -18,6 +18,16 @@ Text Domain: anna_roberts_blog_site
     font-size: 16px;
 }
 
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+h4 {
+    font-family: garamond;
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
 }
 

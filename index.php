@@ -18,12 +18,13 @@
                         </div>
                     </div>
 
+
                     <?php } // end while                        		 
                 } //end if
                 ?>
             </div>
             <div class "three columns">
-                 <h3>SideBar</h3>
+                <h3>SideBar</h3>
             </div>
         </section>
                     

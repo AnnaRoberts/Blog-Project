@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title><?php bloginfo('name'); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
 </head>
 <body>
@@ -11,7 +12,7 @@
 		<header class="row">
 			<div class="nine columns">
 				<h1><a href="<?php bloginfo('url'); ?>"> <?php bloginfo('name');?> </a> </h1>
-				<h2> <?php bloginfo('description'); ?></h2>
+				<h4> <?php bloginfo('description'); ?></h4>
 			</div>
 			<div class="three columns">
 				<?php get_search_form(); ?>
