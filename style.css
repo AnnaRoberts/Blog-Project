@@ -13,6 +13,11 @@ Text Domain: anna_roberts_blog_site
 @import url("css/skeleton.css");
 
 
+html {
+    background-color: #85a38f;
+    background-image: url("background.png");
+}
+
 *{
     color: #000000;
     font-size: 16px;
@@ -21,14 +26,30 @@ Text Domain: anna_roberts_blog_site
 h1 {
     font-family: 'Pacifico', cursive;
     text-align: center;
+    color: #fdd8df;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fdd8df;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d3dfd7;
 }
 
 h4 {
     font-family: garamond;
     text-align: center;
+    font-size: 2.2rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
+    color: #7f7f81;
+    font-family: garamond;
+    text-decoration: none;
 }
 
 h2, h4, h6 {
