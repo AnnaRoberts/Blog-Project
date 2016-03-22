@@ -26,7 +26,7 @@
                 ?>
             </div>
             <div class "three columns">
-                <h3>SideBar</h3>
+                <h3>Featured Blog</h3>
             </div>
         </section>
                     

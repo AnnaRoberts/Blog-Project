@@ -91,7 +91,8 @@ h4 {
 }
 .blank-menu-header ul {
     background-color: #b4c9bb;
-    margin: 0; 
+    margin-left:-150px; 
+    margin-right:-150px; 
     padding: 0; 
     list-style-type: none; 
     list-style-image: none; 
@@ -125,7 +126,5 @@ h4 {
 
 .blog-displays {
     width: 40%;
-    background-color:#fbf4f1;
     text-align: center;
-    padding-top: 200px;
 }
