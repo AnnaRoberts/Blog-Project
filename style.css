@@ -11,7 +11,7 @@ Text Domain: anna_roberts_blog_site
 
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
-
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
 
 html {
     background-color: #85a38f;
@@ -23,11 +23,18 @@ html {
     font-size: 16px;
 }
 
-h1 {
-    font-family: 'Pacifico', cursive;
+h1, h1 a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3em;
     text-align: center;
     color: #fdd8df;
     margin: 5px;
+    text-shadow:2px 2px #676262;
+}
+
+h1 a:hover{
+    text-decoration: none;
+    text-shadow:2px 2px #676262;
 }
 
 a {
@@ -55,9 +62,6 @@ h2, h3, h4, h5, h6 {
 h2, h4, h6 {
 }
 
-h1, h1 a {
-	font-size:4.5rem;
-}
 h2 {
 }
 h3, h3 a {
