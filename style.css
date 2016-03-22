@@ -14,8 +14,9 @@ Text Domain: anna_roberts_blog_site
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
 
 html {
-    background-color: #614038;
+    background-color: #fbf4f1;
     background-image: url("background.png");
+    background-repeat: repeat-x;
 }
 
 *{
@@ -33,8 +34,12 @@ a:hover {
     color: #d3dfd7;
 }
 
+h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #676262;
+}
 
-h2, h3, h5, h6 {
+h2, h5, h6 {
     color: #7f7f81;
     font-family: garamond;
     text-decoration: none;
@@ -55,7 +60,7 @@ h5 {
 h6 {
 }
 
-/*---HEADER*--*/
+/*---HEADER--*/
 
 h1, h1 a {
     font-family: 'Dancing Script', cursive;
