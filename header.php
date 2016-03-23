@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title><?php bloginfo('name'); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
-	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <?php wp_head(); ?>
 </head>
 <body>
