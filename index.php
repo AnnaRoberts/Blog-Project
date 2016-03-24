@@ -1,6 +1,9 @@
 <?php get_header(); ?>         
                 
         <section class="row">
+            <div class "three columns">
+                <?php dynamic_sidebar('front-page'); ?>
+            </div>
             <div class="nine columns">               
                 <?php
                 if ( have_posts() ) {
@@ -25,9 +28,7 @@
                 } //end if
                 ?>
             </div>
-            <div class "three columns">
-                <h3>Featured Blog</h3>
-            </div>
+
         </section>
                     
  <?php get_footer(); ?>
