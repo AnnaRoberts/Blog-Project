@@ -47,6 +47,15 @@ function blank_widgets_init() {
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        
         ));
+    register_sidebar( array(
+        'name' => ('slideshow'),
+        'id' => 'slideshow',
+        'description' => 'Widget for the front page slideshow', 
+        'before_widget' => '<div class="widget-sidebar widget-slideshow">', 
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'                        
+        ));
 }
 add_action('widgets_init', 'blank_widgets_init');
 

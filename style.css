@@ -122,7 +122,7 @@ input[type="search"] {
     background-color: #b4c9bb;
     margin-left:-150px; 
     margin-right:-150px; 
-    padding: 0; 
+    padding: 5px; 
     list-style-type: none; 
     list-style-image: none; 
 }
@@ -177,4 +177,7 @@ input[type="search"] {
     border-width: 8px;
     border-color: #b4c9bb;
     text-align: center;
+}
+.widget-frontpage img{
+    width: 180px;
 }

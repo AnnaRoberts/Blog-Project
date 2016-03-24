@@ -4,6 +4,9 @@
             <div class "three columns">
                 <?php dynamic_sidebar('front-page'); ?>
             </div>
+            <div class "six columns">
+                <?php dynamic_sidebar('slideshow'); ?>
+            </div>
             <div class="nine columns">               
                 <?php
                 if ( have_posts() ) {
