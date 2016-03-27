@@ -162,6 +162,8 @@ input[type="search"] {
 
 .blog-displays {
     float: right;
+    width: 40%;
+    display: inline;
 }
 .blog-displays img {
     float: left;
