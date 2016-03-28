@@ -89,26 +89,30 @@ h4 {
     color: #666; 
     text-align: center;
     padding: 5px; 
-    background-color: #fff;
+    background-color: #b4c9bb;
     margin: 0;
-    min-height: 45px;
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     border-right: 1px solid #666;
+    border-radius: 5px;
+}
+.search-bar-icon .fa-2x {
+    font-size: 1em;
 }
 
 input[type="search"] {
     border: none; 
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
-    border-left: 1px solid #666;
-    min-height: 45px; 
+    border-left: 1px solid #666; 
     font-size: 1.2rem;
     padding: 0;
     width: 100%;
     border-radius: inherit;
     margin:0;
     background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #666;
 }
 
 
