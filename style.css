@@ -99,6 +99,18 @@ h4 {
 .search-bar-icon .fa-2x {
     font-size: 1em;
 }
+.social-media {
+    float: right;
+    margin-top: -60px;
+}
+.social-media li {
+    display: inline;
+    padding-left: 25px;
+}
+.social-media .fa {
+    opacity: .50;
+    font-size: 1.6em;
+}
 
 input[type="search"] {
     border: none; 

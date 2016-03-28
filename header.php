@@ -26,6 +26,12 @@
 		            'sort_column' => 'menu_order', 
 		            'container_class' => 'blank-menu-header'
 		            ));?>
-		    </div>
+		    
+			    <ul class="social-media"> 
+			    	<li><a href="https://www.instagram.com/anna_roberts3/"><i class="fa fa-instagram"></i></a></li>
+			    	<li><a href="https://www.pinterest.com/annarice/"><i class="fa fa-pinterest-square"></i></a></li>
+			    	<li><a href="https://www.facebook.com/anna.rice.904"><i class="fa fa-facebook"></i></a></li>
+			    </ul>
+			</div>
 		</div>
 <!-- END HEADER -->
