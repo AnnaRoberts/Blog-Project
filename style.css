@@ -16,7 +16,7 @@ Text Domain: anna_roberts_blog_site
 
 html {
     background-color: #fbf4f1;
-    background-image: url("background.png");
+    background-image: url("background-wood.jpg");
     background-repeat: repeat-x;
 }
 *{
@@ -116,7 +116,7 @@ input[type="search"] {
 
 .blank-menu-header {
     text-align: left;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .blank-menu-header ul {
     background-color: #b4c9bb;
