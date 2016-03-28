@@ -7,13 +7,6 @@
             <div class "six columns">
                 <?php dynamic_sidebar('slideshow'); ?>
             </div>
-            <div class="my-slider">
-                <ul>
-                    <li>My slide</li>
-                    <li>Another slide</li>
-                    <li>My last slide</li>
-                </ul>
-            </div>
             <div class="nine columns">               
                 <?php
                 if ( have_posts() ) {
@@ -32,18 +25,11 @@
                             </div>
                         </div>
                     </div>
-            
-
                     <?php } // end while                        		 
                 } //end if
                 ?>
             </div>
-
         </section>
-
-<script src="//code.jquery.com/jquery-2.1.4.min (1).js"></script>
-<script src="/js/unslider-master/src/js/unslider.js"></script> 
-<script src="js/main.js"></script>
 
                     
  <?php get_footer(); ?>

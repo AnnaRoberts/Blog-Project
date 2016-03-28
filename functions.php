@@ -75,13 +75,6 @@ add_theme_support( 'post-thumbnails');
 <?php
 /*--- Enable jQuery Plugin ---*/
 
-wp_deregister_script('jquery');
-
-wp_enqueue_script('jquery', 'http://code.jquery.com/jquery-latest.min.js','','',true);
-?>
-
-<?php
-/*--- Enable jQuery Plugin ---*/
 function enqueue_unslider() {
     wp_enqueue_script( //function to enqueue script
         'unslider', //name of our script (id)
@@ -93,6 +86,5 @@ function enqueue_unslider() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_unslider');
 ?>
-
 
 
