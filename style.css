@@ -160,6 +160,11 @@ input[type="search"] {
 
 /*--- BLOG DISPLAYS ---*/ 
 
+.container-blog-displays{
+    float: left;
+    display: inline-flex;
+}
+
 
 /*--- SIDEBARS ---*/ 
 
