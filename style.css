@@ -176,6 +176,19 @@ input[type="search"] {
 }
 .widget-frontpage img{
     width: 180px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #888888;
+}
+.widget-frontpage p {
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.widget-slideshow img {
+    max-width: 500px;
+    margin-top: 25px;
+    border-radius: 40px;
+    box-shadow: 10px 8px 10px #888888;
 }
 
 /*--- JQUERY SLIDER ---*/ 
