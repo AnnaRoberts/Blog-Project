@@ -48,10 +48,10 @@ function blank_widgets_init() {
         'after_title' => '</h3>'                        
         ));
     register_sidebar( array(
-        'name' => ('profile'),
-        'id' => 'Profile',
+        'name' => ('Profile Widget'),
+        'id' => 'profile-widget',
         'description' => 'Widget for the profile', 
-        'before_widget' => '<div class="widget-sidebar widget-profile">', 
+        'before_widget' => '<div class="widget-sidebar profile-widget">', 
         'after_widget' => '</div>',
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        
