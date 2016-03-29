@@ -224,18 +224,29 @@ input[type="search"] {
     box-shadow: 10px 8px 10px #888888;
 }
 
-/*--- JQUERY SLIDER ---*/ 
+/*--- ARCHIVE PAGE ---*/ 
 
-.unslider{overflow:auto;margin:0;padding:0;}
-.unslider-wrap{position:relative;}
-.unslider-wrap.unslider-carousel>li{float:left;}
-.unslider-vertical>ul{height:100%;}
-.unslider-vertical li{float:none;width:100%;}
-.unslider-fade{position:relative;}
-.unslider-fade .unslider-wrap li{position:absolute;left:0;top:0;right:0;z-index:8;}
-.unslider-fade .unslider-wrap li.unslider-active{z-index:10;}
-.unslider li,.unslider ol,.unslider ul{list-style:none;margin:0;padding:0;border:none;}
-.unslider-arrow{position:absolute;left:20px;z-index:2;cursor:pointer;}
-.unslider-arrow.next{left:auto;right:20px;}
+.archive-container{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    overflow: scroll;
+    background-color: #b4c9bb;
+    padding: 20px;
+    opacity: .80;
+}
+.archive-container ul li a {
+    list-style: inherit;
+    font-family: garamond;
+    color: white;
+    font-size: 20px;
+}   
+.archive-container ul li a:hover {
+    color: #e094a4;
+    font-size: 20px;
+    font-style: italic;
+}  
+
+
 
 
