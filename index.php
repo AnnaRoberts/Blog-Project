@@ -6,10 +6,23 @@
             </div>
             <div class="slideshow">
                 <ul>
-                    <li>This is my slider</li>
-                    <li>Pretty cool?</li>
-                    <li>Please dear god work</li>
+                    <li style="background-image: url('slide01.jpg');">
+                        <div class="slides-message">
+                            <h1>The Wildflower Blog Series</h1>
+                        </div>
+                    </li>
+                    <li style="background-image: url('slide03.jpg');">
+                        <div class="slides-message">
+                            <h1>The Wildflower Blog Series</h1>
+                        </div>
+                    </li>
+                    <li style="background-image: url('slide02.jpg');">
+                        <div class="slides-message">
+                            <h3>The Wildflower Blog Series</h3>
+                        </div>
+                    </li>
                 </ul>
+                
             </div>
             <div class "six columns">
                 <?php dynamic_sidebar('slideshow'); ?>

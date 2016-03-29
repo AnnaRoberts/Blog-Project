@@ -75,25 +75,37 @@ add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails'); 
-?>
 
-<?php
+function slider_tutorial() {
+$labels = array(
+    'name'               => _x( 'Slides', 'post type general name' ),
+    'singular_name'      => _x( 'Slide', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'slides' ),
+    'add_new_item'       => __( 'Add Slide' ),
+    'edit_item'          => __( 'Edit Slides' ),
+    'new_item'           => __( 'New Slide' ),
+    'all_items'          => __( 'All Slides' ),
+    'view_item'          => __( 'View Slides' ),
+    'search_items'       => __( 'Search Slides' ),
+    'not_found'          => __( 'No slides found' ),
+    'not_found_in_trash' => __( 'No slides found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Slider'
 
-/*-------------- Enable JQuery --------------- */
-function enqueue_unslider() {
-    wp_enqueue_script( //function to enqueue script
-        'unslider', //name of our script (id)
-        get_template_directory_uri() . '/js/unslider.js', //file loc
-        array('jquery'), //dependencies
-        '', //version - left blank
-        true //load in footer
-    );
+);
+$args = array(
+/*--- Begin Arguments Options ---*/
+
+'labels' => $labels,
+'description'   => 'Slides for our Unslider integration',
+'public'        => true,
+'menu_position' => 6,
+'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt'),
+'has_archive'   => true,
+
+);
+register_post_type( 'slider', $args ); 
 }
-add_action('wp_enqueue_scripts', 'enqueue_unslider');
-?>
+add_action( 'init', 'slider_tutorial' );
 
-<?php
-wp_deregister_script('jquery');
-
-wp_enqueue_script('jquery', 'http://code.jquery.com/jquery-latest.min.js','','',true);
 ?>
