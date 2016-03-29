@@ -1,9 +1,6 @@
 <?php get_header(); ?>
      
     <section class="row">
-        <div class="two columns">
-            <br/>
-        </div>
         <div class="eight columns">
              <?php 
              if ( have_posts() ) {
