@@ -4,30 +4,29 @@
             <div class "three columns">
                 <?php dynamic_sidebar('front-page'); ?>
             </div>
-            <div class="slideshow">
-                <ul>
-                    <li style="background-image: url('slide01.jpg');">
-                        <div class="slides-message">
-                            <h1>The Wildflower Blog Series</h1>
-                        </div>
-                    </li>
-                    <li style="background-image: url('slide03.jpg');">
-                        <div class="slides-message">
-                            <h1>The Wildflower Blog Series</h1>
-                        </div>
-                    </li>
-                    <li style="background-image: url('slide02.jpg');">
-                        <div class="slides-message">
-                            <h3>The Wildflower Blog Series</h3>
-                        </div>
-                    </li>
-                </ul>
+            <div class="seven columns">      
+                <div class="slideshow">
+                    <ul>
+                        <li style="background-image: url('slide01.jpg');">
+                            <div class="slides-message">
+                                <h1>The Wildflower Blog Series</h1>
+                            </div>
+                        </li>
+                        <li style="background-image: url('slide03.jpg');">
+                            <div class="slides-message">
+                                <h1>The Wildflower Blog Series</h1>
+                            </div>
+                        </li>
+                        <li style="background-image: url('slide02.jpg');">
+                            <div class="slides-message">
+                                <h3>The Wildflower Blog Series</h3>
+                            </div>
+                        </li>
+                    </ul>                
+                </div>
+            </div>  
                 
-            </div>
-            <div class "six columns">
-                <?php dynamic_sidebar('slideshow'); ?>
-            </div>
-                <div class="container-blog-displays">         
+            <div class="container-blog-displays">         
                 <?php
                 if ( have_posts() ) {
                     while ( have_posts() ) {
