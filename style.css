@@ -64,10 +64,11 @@ h1 a:hover{
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: garamond;
+    text-transform: uppercase;
     font-weight: 300;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     color: #fbf4f1;
     text-shadow:1px 1px #676262;
 }
