@@ -4,6 +4,13 @@
             <div class "three columns">
                 <?php dynamic_sidebar('front-page'); ?>
             </div>
+            <div class="slideshow">
+                <ul>
+                    <li>This is my slider</li>
+                    <li>Pretty cool?</li>
+                    <li>Please dear god work</li>
+                </ul>
+            </div>
             <div class "six columns">
                 <?php dynamic_sidebar('slideshow'); ?>
             </div>
@@ -30,6 +37,8 @@
                 </div> 
             
         </section>
-
+<script src="js/jquery-2.1.4.min (1).js"></script>    
+<script src="js/unslider.js"></script> 
+<script src="js/main.js"></script>
                     
  <?php get_footer(); ?>
