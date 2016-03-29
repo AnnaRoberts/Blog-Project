@@ -56,6 +56,15 @@ function blank_widgets_init() {
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        
         ));
+    register_sidebar( array(
+        'name' => ('profile'),
+        'id' => 'Profile',
+        'description' => 'Widget for the profile', 
+        'before_widget' => '<div class="widget-sidebar widget-profile">', 
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'                        
+        ));
 }
 add_action('widgets_init', 'blank_widgets_init');
 

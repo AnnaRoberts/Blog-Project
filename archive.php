@@ -1,8 +1,9 @@
 <?php 
 /* Template Name: Archive Page */
 
-get_header(); ?>
-<section class="row">
+get_header(); ?>  
+
+<div class="row">
     <div class="twelve columns">
         <?php if ( have_posts() ) : ?>
             <h2>Archives</h2>
@@ -21,7 +22,7 @@ get_header(); ?>
         	<p>Sorry, no posts matched your criteria.</p>
         <?php endif; ?>
     </div>
-</section>
+</div>
 <div class="row">
     <div class="six columns">
         <h2>Archives by Month:</h2>

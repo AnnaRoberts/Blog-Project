@@ -3,7 +3,7 @@
     <div class="row">
     <!-- BEGIN SIDEBAR -->
         <div class="three columns">
-            <?php get_sidebar(); ?>
+            <?php get_sidebar('profile'); ?>
         </div>
     <!-- END SIDEBAR -->
         <div class="nine columns">

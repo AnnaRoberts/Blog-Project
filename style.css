@@ -169,8 +169,8 @@ input[type="search"] {
 }
 
 .single-post-thumbnail img {
-    width: 100%;
-    height: auto;
+    visibility: hidden;
+    width: 0px;
 }
 
 
@@ -190,6 +190,8 @@ input[type="search"] {
     display: block; 
     margin-left: auto;
     margin-right: auto;
+    width: 120px;
+    height: 120px;
 }
 
 /*--- SIDEBARS ---*/ 
